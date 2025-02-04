@@ -22,7 +22,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <p className="text-[rgb(214,223,244)] font-zen">
                 📧 <a 
-                  href="mailto:serhii.bahirov@gmail.com?subject=Contact Front-End Developer" 
+                  href="mailto:serhii.bahirov@gmail.com?subject=Front-End Developer CV"
                   className="hover:text-[#33415C] transition-colors duration-300"
                 >
                   serhii.bahirov@gmail.com
