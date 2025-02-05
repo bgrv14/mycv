@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
-@import url("https://fonts.cdnfonts.com/css/irpin-type");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 
 :root {
   --background: #ffffff;
@@ -20,7 +19,15 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Zen Dots", cursive;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
