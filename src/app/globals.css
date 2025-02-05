@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&family=Orbitron:wght@400;500;600;700&display=swap");
 
 :root {
   --background: #ffffff;
@@ -19,5 +19,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Zen Dots", cursive;
+  font-family: "Zen Dots", "Orbitron", cursive;
 }
