@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        zen: ['Zen Dots', 'Orbitron', 'cursive'],
+        zen: ['Zen Dots', 'cursive'],
       },
     },
   },
