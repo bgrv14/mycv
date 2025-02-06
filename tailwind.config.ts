@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        zen: ['Comfortaa', 'sans-serif'],
+        zen: ['Zen Dots', 'Irpin Type', 'cursive'],
       },
       fontWeight: {
         normal: '400',

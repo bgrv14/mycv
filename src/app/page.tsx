@@ -1,14 +1,8 @@
-'use client';
-
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaCheck } from "react-icons/fa";
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiGit } from "react-icons/si";
-import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Home() {
-  const { t } = useTranslation();
-
   return (
     <main 
       className="min-h-screen w-full relative bg-cover bg-center bg-no-repeat bg-fixed overflow-x-hidden"
@@ -19,25 +13,23 @@ export default function Home() {
       <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
       
       <div className="relative z-10 w-full max-w-7xl px-4 md:px-6 lg:px-8 mx-auto">
-        <LanguageSwitcher />
-        
         <section className="mb-8 flex flex-col md:flex-row md:justify-between md:px-[2.1rem] space-y-6 md:space-y-0">
           <div className="flex flex-col md:flex-row gap-4 md:gap-12 items-center md:items-start">
             <div className="flex flex-row md:flex-col gap-4 flex-wrap justify-center">
               <p className="text-[rgb(214,223,244)] font-zen text-sm md:text-base">
                 📧 <a 
-                  href={`mailto:${t('contacts.email')}?subject=Front-End Developer CV`}
+                  href="mailto:serhii.bahirov@gmail.com?subject=Front-End Developer CV"
                   className="hover:text-[#33415C] transition-colors duration-300"
                 >
-                  {t('contacts.email')}
+                  serhii.bahirov@gmail.com
                 </a>
               </p>
               <p className="text-[rgb(214,223,244)] font-zen text-sm md:text-base">
                 📱 <a 
-                  href={`tel:${t('contacts.phone')}`}
+                  href="tel:+380676328323"
                   className="hover:text-[#33415C] transition-colors duration-300"
                 >
-                  {t('contacts.phone')}
+                  +380676328323
                 </a>
               </p>
               <p className="text-[rgb(214,223,244)] font-zen flex items-center gap-2 text-sm md:text-base">
@@ -82,9 +74,9 @@ export default function Home() {
           </div>
 
           <div className="text-center md:text-right">
-            <h1 className="text-4xl md:text-6xl mb-4 text-[rgb(214,223,244)] font-zen">{t('name')}</h1>
-            <p className="text-xl md:text-2xl mb-2 text-[rgb(214,223,244)] font-zen">{t('position')}</p>
-            <p className="text-sm md:text-base text-[rgb(214,223,244)] font-zen">{t('location')}</p>
+            <h1 className="text-4xl md:text-6xl mb-4 text-[rgb(214,223,244)] font-zen">Сергій Багіров</h1>
+            <p className="text-xl md:text-2xl mb-2 text-[rgb(214,223,244)] font-zen">Trainee/Junior Front-End Developer</p>
+            <p className="text-sm md:text-base text-[rgb(214,223,244)] font-zen">Кривий Ріг, Україна</p>
           </div>
         </section>
 
@@ -93,7 +85,7 @@ export default function Home() {
             <div className="w-full aspect-square rounded-full overflow-hidden border-4 border-[#979DAC]">
               <Image
                 src="/Photo4CV.jpg"
-                alt={t('name')}
+                alt="Сергій Багіров"
                 width={384}
                 height={384}
                 className="object-cover w-full h-full"
@@ -102,7 +94,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-[60%]">
             <p className="text-[rgb(214,223,244)] leading-relaxed text-base md:text-lg font-zen bg-[#001845]/55 rounded-lg p-6 md:p-8 backdrop-blur-md">
-              {t('about')}
+              Я Trainee/Junior Front-End Developer з базовими знаннями в HTML, CSS, JavaScript та React. Готовий почати кар'єру в IT, швидко вчуся та відкритий до нових викликів. Маю понад 4 роки досвіду в логістиці, де керував перевезеннями вантажів і організовував складську роботу. Працював з бізнес-клієнтами, знаходячи варіанти вирішення їхніх проблем з продуктами нашої компанії. Вмію добре спілкуватися та швидко пристосовуватися до нових умов, що допоможе мені успішно розпочати роботу в IT.
             </p>
           </div>
         </section>
@@ -110,7 +102,7 @@ export default function Home() {
         <section className="mb-8">
           <div className="flex flex-col md:flex-row mb-4 md:mb-8 md:gap-6">
             <div className="w-full md:w-[60%] text-center mb-2 md:mb-0">
-              <h2 className="text-2xl md:text-3xl text-[rgb(214,223,244)] font-zen uppercase mb-4 md:mb-4">{t('skills.hard')}</h2>
+              <h2 className="text-2xl md:text-3xl text-[rgb(214,223,244)] font-zen uppercase mb-4 md:mb-4">HARD SKILLS</h2>
               <div className="bg-[#001845]/55 rounded-lg p-3 md:p-4 backdrop-blur-md flex items-center mt-2 md:mt-0">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                   <div className="space-y-4">
@@ -177,28 +169,28 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full md:w-[40%] text-center">
-              <h2 className="text-2xl md:text-3xl text-[rgb(214,223,244)] font-zen uppercase mb-4 md:mb-4">{t('skills.soft')}</h2>
+              <h2 className="text-2xl md:text-3xl text-[rgb(214,223,244)] font-zen uppercase mb-4 md:mb-4">SOFT SKILLS</h2>
               <div className="bg-[#001845]/55 rounded-lg p-3 md:p-4 backdrop-blur-md flex items-center justify-center mt-2 md:mt-0 md:h-[156px]">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">{t('softSkills.attention')}</span>
+                    <span className="font-zen text-sm md:text-base">Увага до деталей</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">{t('softSkills.teamwork')}</span>
+                    <span className="font-zen text-sm md:text-base">Командна робота</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">{t('softSkills.communication')}</span>
+                    <span className="font-zen text-sm md:text-base">Комунікабельність</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">{t('softSkills.adaptability')}</span>
+                    <span className="font-zen text-sm md:text-base">Адаптивність</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-center col-span-2">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">{t('softSkills.multitasking')}</span>
+                    <span className="font-zen text-sm md:text-base">Уміння працювати в режимі багатозадачності</span>
                   </div>
                 </div>
               </div>
@@ -207,23 +199,23 @@ export default function Home() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl mb-4 text-[rgb(214,223,244)] font-zen text-center uppercase">{t('languages.title')}</h2>
+          <h2 className="text-2xl md:text-3xl mb-4 text-[rgb(214,223,244)] font-zen text-center uppercase">LANGUAGES</h2>
           <div className="bg-[#001845]/55 rounded-lg p-4 backdrop-blur-md">
             <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-6">
               <div className="flex-1">
-                <span className="text-[rgb(214,223,244)] font-zen block mb-1 text-sm md:text-base">{t('languages.ukrainian')}</span>
+                <span className="text-[rgb(214,223,244)] font-zen block mb-1 text-sm md:text-base">Ukrainian</span>
                 <div className="bg-[#0466C8] rounded-full">
                   <div className="h-2 bg-[#979DAC] rounded-full" style={{width: '100%'}}></div>
                 </div>
               </div>
               <div className="flex-1">
-                <span className="text-[rgb(214,223,244)] font-zen block mb-1 text-sm md:text-base">{t('languages.english')}</span>
+                <span className="text-[rgb(214,223,244)] font-zen block mb-1 text-sm md:text-base">English</span>
                 <div className="bg-[#0466C8] rounded-full">
                   <div className="h-2 bg-[#979DAC] rounded-full" style={{width: '50%'}}></div>
                 </div>
               </div>
               <div className="flex-1">
-                <span className="text-[rgb(214,223,244)] font-zen block mb-1 text-sm md:text-base">{t('languages.russian')}</span>
+                <span className="text-[rgb(214,223,244)] font-zen block mb-1 text-sm md:text-base">Russian</span>
                 <div className="bg-[#0466C8] rounded-full">
                   <div className="h-2 bg-[#979DAC] rounded-full" style={{width: '90%'}}></div>
                 </div>
@@ -233,70 +225,73 @@ export default function Home() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-center text-4xl md:text-6xl mb-8 md:mb-12 text-[rgb(214,223,244)] font-zen">{t('experience.title')}</h2>
+          <h2 className="text-center text-4xl md:text-6xl mb-8 md:mb-12 text-[rgb(214,223,244)] font-zen">Work Experience</h2>
           <div className="bg-[#001845]/55 rounded-lg p-6 md:p-8 backdrop-blur-md">
             <div className="space-y-8">
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('experience.military.position')}</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Молодший сержант</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('experience.military.period')}</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">{t('experience.military.location')}</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">квітень 2024 - жовтень 2024</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Краматорськ</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">{t('experience.military.company')}</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">Збройні Сили України</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  {(t('experience.military.responsibilities', { returnObjects: true }) as string[]).map((responsibility: string, index: number) => (
-                    <li key={index}>{responsibility}</li>
-                  ))}
+                  <li>Навчання на молодшого лейтенанта</li>
+                  <li>Моніторинг та покращення системи взаємодії між підрозділами</li>
+                  <li>Підтримання дисципліни та загальної організації підрозділу</li>
                 </ul>
               </div>
 
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('experience.kyivstar.position')}</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Менеджер з організації консультативних послуг</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('experience.kyivstar.period')}</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">{t('experience.kyivstar.location')}</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">квітень 2023 - квітень 2024</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Кривий Ріг</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">{t('experience.kyivstar.company')}</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">ПрАТ "Київстар"</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  {(t('experience.kyivstar.responsibilities', { returnObjects: true }) as string[]).map((responsibility: string, index: number) => (
-                    <li key={index}>{responsibility}</li>
-                  ))}
+                  <li>Надання професійної підтримки та допомоги у вирішенні проблем</li>
+                  <li>Активна участь у продажах продуктів компанії</li>
+                  <li>Систематичне ведення звітності з продажів</li>
                 </ul>
               </div>
 
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('experience.svtek.position')}</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Менеджер з логістики</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('experience.svtek.period')}</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">{t('experience.svtek.location')}</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">березень 2019 - квітень 2023</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Кривий Ріг</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">{t('experience.svtek.company')}</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">ТОВ "СВ ТЕК"</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  {(t('experience.svtek.responsibilities', { returnObjects: true }) as string[]).map((responsibility: string, index: number) => (
-                    <li key={index}>{responsibility}</li>
-                  ))}
+                  <li>Організація та контроль за перевезенням вантажів як за кордон, так і в межах України</li>
+                  <li>Відповідальність за підготовку необхідних документів для проведення перевезень</li>
+                  <li>Організація складської логістики для зберігання та ефективного розподілу вантажів</li>
+                  <li>Координація перевезення вантажів до складів замовників для своєчасного отримання</li>
+                  <li>Пошук та вибір надійних перевізників, організація їх роботи та забезпечення виконання умов договорів</li>
+                  <li>Взаємодія з митницею, забезпечення контролю за вчасного розмитнення вантажів</li>
                 </ul>
               </div>
 
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('experience.asgard.position')}</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Геодезист</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('experience.asgard.period')}</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">{t('experience.asgard.location')}</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">січень 2018 - березень 2018</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Дніпро</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">{t('experience.asgard.company')}</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">ПП "Асгард"</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  {(t('experience.asgard.responsibilities', { returnObjects: true }) as string[]).map((responsibility: string, index: number) => (
-                    <li key={index}>{responsibility}</li>
-                  ))}
+                  <li>Виконання виїздів для топографічних зйомок та збору даних</li>
+                  <li>Обробка зібраних даних з використанням комп'ютерних програм</li>
+                  <li>Створення топографічних планів для будівництва</li>
                 </ul>
               </div>
             </div>
@@ -304,36 +299,36 @@ export default function Home() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-center text-4xl md:text-6xl mb-8 md:mb-12 text-[rgb(214,223,244)] font-zen">{t('education.title')}</h2>
+          <h2 className="text-center text-4xl md:text-6xl mb-8 md:mb-12 text-[rgb(214,223,244)] font-zen">Education</h2>
           <div className="bg-[#001845]/55 rounded-lg p-6 md:p-8 backdrop-blur-md">
             <div className="space-y-6">
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('education.frontend.degree')}</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.frontend.period')}</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Front-End розробник</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">жовтень 2024 - грудень 2024</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.frontend.institution')}</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Robot_Dreams</p>
               </div>
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('education.english.degree')}</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.english.period')}</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Курс з вивчення англійської мови</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">травень 2021 - січень 2022</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.english.institution')}</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Школа з вивчення англійської мови "O'key english studio"</p>
               </div>
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('education.master.degree')}</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.master.period')}</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Геодезія та землеустрій - Магістр</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">вересень 2017 - грудень 2018</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.master.institution')}</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Криворізький національний університет</p>
               </div>
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">{t('education.bachelor.degree')}</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.bachelor.period')}</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Геодезія, картографія та землеустрій - Бакалавр</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">вересень 2013 - червень 2017</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">{t('education.bachelor.institution')}</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Криворізький національний університет</p>
               </div>
             </div>
           </div>
