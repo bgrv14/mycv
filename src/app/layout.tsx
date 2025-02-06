@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import '../i18n/config';
 
 export const metadata: Metadata = {
   title: "Front-End Developer",
