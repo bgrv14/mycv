@@ -74,9 +74,9 @@ export default function Home() {
           </div>
 
           <div className="text-center md:text-right">
-            <h1 className="text-4xl md:text-6xl mb-4 text-[rgb(214,223,244)] font-zen">Сергій Багіров</h1>
+            <h1 className="text-4xl md:text-6xl mb-4 text-[rgb(214,223,244)] font-zen">Serhii Bahirov</h1>
             <p className="text-xl md:text-2xl mb-2 text-[rgb(214,223,244)] font-zen">Trainee/Junior Front-End Developer</p>
-            <p className="text-sm md:text-base text-[rgb(214,223,244)] font-zen">Кривий Ріг, Україна</p>
+            <p className="text-sm md:text-base text-[rgb(214,223,244)] font-zen">Kryvyi Rih, Ukraine</p>
           </div>
         </section>
 
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-[60%]">
             <p className="text-[rgb(214,223,244)] leading-relaxed text-base md:text-lg font-zen bg-[#001845]/55 rounded-lg p-6 md:p-8 backdrop-blur-md">
-              Я Trainee/Junior Front-End Developer з базовими знаннями в HTML, CSS, JavaScript та React. Готовий почати кар'єру в IT, швидко вчуся та відкритий до нових викликів. Маю понад 4 роки досвіду в логістиці, де керував перевезеннями вантажів і організовував складську роботу. Працював з бізнес-клієнтами, знаходячи варіанти вирішення їхніх проблем з продуктами нашої компанії. Вмію добре спілкуватися та швидко пристосовуватися до нових умов, що допоможе мені успішно розпочати роботу в IT.
+              I am a Trainee/Junior Front-End Developer with basic knowledge of HTML, CSS, JavaScript, and React. I am ready to start my career in IT, eager to learn quickly, and open to new challenges. I have over four years of experience in logistics, where I managed cargo transportation and organized warehouse operations. I worked with business clients, finding solutions to their issues with our company's products. I have strong communication skills and the ability to adapt quickly to new environments, which will help me successfully transition into the IT field.
             </p>
           </div>
         </section>
@@ -174,23 +174,23 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">Увага до деталей</span>
+                    <span className="font-zen text-sm md:text-base">Attention to detail</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">Командна робота</span>
+                    <span className="font-zen text-sm md:text-base">Teamwork</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">Комунікабельність</span>
+                    <span className="font-zen text-sm md:text-base">Communication skills</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-start">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">Адаптивність</span>
+                    <span className="font-zen text-sm md:text-base">Adaptability</span>
                   </div>
                   <div className="flex items-center gap-2 text-[rgb(214,223,244)] justify-center col-span-2">
                     <FaCheck className="text-[rgb(214,223,244)] text-lg md:text-xl min-w-[20px]" />
-                    <span className="font-zen text-sm md:text-base">Уміння працювати в режимі багатозадачності</span>
+                    <span className="font-zen text-sm md:text-base">Ability to work in a multitasking environment</span>
                   </div>
                 </div>
               </div>
@@ -230,68 +230,70 @@ export default function Home() {
             <div className="space-y-8">
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Молодший сержант</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Junior Sergeant</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">квітень 2024 - жовтень 2024</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Краматорськ</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">April 2024 - October 2024</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Kramators`k</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">Збройні Сили України</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">Armed Forces of Ukraine</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  <li>Навчання на молодшого лейтенанта</li>
-                  <li>Моніторинг та покращення системи взаємодії між підрозділами</li>
-                  <li>Підтримання дисципліни та загальної організації підрозділу</li>
+                  <li>Training for Junior Lieutenant</li>
+                  <li>Monitoring and improving the interaction system between units</li>
+                  <li>Maintaining discipline and overall unit organization</li>
                 </ul>
               </div>
 
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Менеджер з організації консультативних послуг</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Consulting Services Manager
+</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">квітень 2023 - квітень 2024</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Кривий Ріг</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">April 2023 - April 2024</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Kryvyi Rih</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">ПрАТ "Київстар"</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">PJSC "Kyivstar"
+</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  <li>Надання професійної підтримки та допомоги у вирішенні проблем</li>
-                  <li>Активна участь у продажах продуктів компанії</li>
-                  <li>Систематичне ведення звітності з продажів</li>
+                  <li>Providing professional support and assistance in problem-solving</li>
+                  <li>Active participation in the sales of company products</li>
+                  <li>Systematic sales reporting</li>
                 </ul>
               </div>
 
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Менеджер з логістики</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Logistics Manager</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">березень 2019 - квітень 2023</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Кривий Ріг</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">March 2019 - April 2023</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Kryvyi Rih</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">ТОВ "СВ ТЕК"</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">LLC "SV TEK"</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  <li>Організація та контроль за перевезенням вантажів як за кордон, так і в межах України</li>
-                  <li>Відповідальність за підготовку необхідних документів для проведення перевезень</li>
-                  <li>Організація складської логістики для зберігання та ефективного розподілу вантажів</li>
-                  <li>Координація перевезення вантажів до складів замовників для своєчасного отримання</li>
-                  <li>Пошук та вибір надійних перевізників, організація їх роботи та забезпечення виконання умов договорів</li>
-                  <li>Взаємодія з митницею, забезпечення контролю за вчасного розмитнення вантажів</li>
+                  <li>Organizing and overseeing cargo transportation both internationally and within Ukraine</li>
+                  <li>Responsible for preparing the necessary documentation for transportation</li>
+                  <li>Organizing warehouse logistics for storage and efficient cargo distribution</li>
+                  <li>Coordinating cargo transportation to customers' warehouses for timely delivery</li>
+                  <li>Searching for and selecting reliable carriers, organizing their work, and ensuring contract compliance</li>
+                  <li>Interacting with customs authorities and ensuring timely customs clearance of cargo</li>
                 </ul>
               </div>
 
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Геодезист</h3>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Surveyor</h3>
                   <div className="text-left md:text-right">
-                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">січень 2018 - березень 2018</p>
-                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Дніпро</p>
+                    <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">January 2018 - March 2018</p>
+                    <p className="text-[rgb(214,223,244)] text-xs md:text-sm font-zen">Dnipro</p>
                   </div>
                 </div>
-                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">ПП "Асгард"</p>
+                <p className="text-[rgb(214,223,244)] mb-2 text-sm md:text-base font-zen">PP "Asgard"</p>
                 <ul className="list-disc list-inside text-[rgb(214,223,244)] space-y-2 text-sm md:text-base font-zen">
-                  <li>Виконання виїздів для топографічних зйомок та збору даних</li>
-                  <li>Обробка зібраних даних з використанням комп'ютерних програм</li>
-                  <li>Створення топографічних планів для будівництва</li>
+                  <li>Conducting field trips for topographic surveys and data collection</li>
+                  <li>Processing collected data using computer software</li>
+                  <li>Creating topographic maps for construction projects</li>
                 </ul>
               </div>
             </div>
@@ -304,31 +306,31 @@ export default function Home() {
             <div className="space-y-6">
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Front-End розробник</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">жовтень 2024 - грудень 2024</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Front-End Developer</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">October 2024 - January 2024</p>
                 </div>
                 <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Robot_Dreams</p>
               </div>
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Курс з вивчення англійської мови</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">травень 2021 - січень 2022</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">English Language Course</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">May 2021 - January 2022</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Школа з вивчення англійської мови "O'key english studio"</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">English Language School "O'key English Studio"</p>
               </div>
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Геодезія та землеустрій - Магістр</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">вересень 2017 - грудень 2018</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Geodesy and Land Management - Master's Degree</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">September 2017 - December 2018</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Криворізький національний університет</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Kryvyi Rih National University</p>
               </div>
               <div>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Геодезія, картографія та землеустрій - Бакалавр</h3>
-                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">вересень 2013 - червень 2017</p>
+                  <h3 className="text-[rgb(214,223,244)] text-xl md:text-2xl font-zen mb-2 md:mb-0">Geodesy, Cartography, and Land Management - Bachelor's Degree</h3>
+                  <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">September 2013 - June 2017</p>
                 </div>
-                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Криворізький національний університет</p>
+                <p className="text-[rgb(214,223,244)] text-sm md:text-base font-zen">Kryvyi Rih National University</p>
               </div>
             </div>
           </div>
